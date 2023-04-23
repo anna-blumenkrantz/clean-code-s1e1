@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo App</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="style.css" media="screen">
   </head>
   <body class="todo-page">
+    <header>
         <div class="todo-app">
-          <img src="./eisenhower-matrix.jpg">
+          <img src="./eisenhower-matrix.jpg" alt="matrix">
           <a class="todo-app__more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
         </div>
     </header>
     <main>
         <div class="wrapper">
             <form>
-                <label class="task-label__new" for="new-task">Add Item</label>
+                <label class="task-label__new" for="new-task-id">Add Item</label>
                 <div class="task-row-wrapper">
                   <input id="new-task-id" class="task-input__new" type="text">
                   <button>Add</button>
@@ -32,7 +33,7 @@
                     <input type="text" class="task-input-text">
                     <button class="button button__edit">Edit</button>
                     <button class="button button__edit">
-                        <img class="button__image" src="./remove.svg">
+                        <img class="button__image" src="./remove.svg" alt="remove button">
                     </button>
                   </li>
                   <li class="task-item edit-mode">
@@ -41,7 +42,7 @@
                     <input type="text" value="Go Shopping" class="task-input-text">
                     <button class="button button__edit">Save</button>
                     <button class="button button__edit">
-                        <img class="button__image" src="./remove.svg">
+                        <img class="button__image" src="./remove.svg" alt="remove button">
                     </button>
                   </li>
                 </ul>
@@ -55,7 +56,7 @@
                     <input type="text" class="task-input-text">
                     <button class="button button__edit">Edit</button>
                     <button class="button button__edit">
-                        <img class="button__image" src="./remove.svg">
+                        <img class="button__image" src="./remove.svg" alt="remove button">
                     </button>
                   </li>
                 </ul>
