@@ -5,34 +5,34 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.todo-app {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.todo-app img {
   width: 100%;
 }
 
-.aaa .more_inf {
+.todo-app__more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-  .aaa {
+  .todo-app {
     text-align: center;
   }
 }
 
-.centered-main-page-element {
+.wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 
-.task {
+.new-task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -83,7 +83,7 @@ label[for="new-task"] {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.task-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -96,7 +96,7 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.task-text:focus {
   color: #333;
 }
 
@@ -106,7 +106,7 @@ label[for="new-task"] {
   margin: 0 0 20px;
 }
 
-input#new-task {
+input#new-task-id {
   width: 318px;
 }
 
@@ -150,7 +150,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed-tasks-id label {
   text-decoration: line-through;
   color: #888;
 }
@@ -160,11 +160,11 @@ ul li input[type=text] {
   display: none;
 }
 
-ul li.editMode input[type=text] {
+ul li.edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
   display: none;
 }
