@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.todo-page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -24,7 +24,7 @@ body {
   .todo-app {
     text-align: center;
   }
-  
+
 }
 
 .wrapper {
