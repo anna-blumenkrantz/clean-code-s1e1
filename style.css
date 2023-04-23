@@ -98,7 +98,7 @@
   color: #888;
 }
 
-.task-text:focus {
+.task-input-text:focus {
   color: #333;
 }
 
@@ -108,7 +108,7 @@
   margin: 0 0 20px;
 }
 
-.new-task-input {
+.task-input__new {
   width: 318px;
 }
 
