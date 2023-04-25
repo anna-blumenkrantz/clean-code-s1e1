@@ -28,7 +28,7 @@
 }
 
 .wrapper {
-  display: block;
+  /* display: block; */
   width: 500px;
   margin: 0 auto 0;
 }
@@ -40,9 +40,8 @@
 }
 
 .task-row-wrapper {
-
-  /* display: flex; */
-  /* justify-content: space-between; */
+  display: flex;
+  justify-content: space-between;
 }
 
 .todo-list {
